@@ -11,10 +11,10 @@ from .exceptions import (
     MissingContextError
 )
 
-Bot: Optional[Union[commands.Bot, discord.Client]]
+Bot: Optional[Union[commands.Bot, nextcord.Client]]
 
 
-class Embed(discord.Embed):
+class Embed(netxcord.Embed):
     """Embed wrapping of discord.Embed class."""
 
     auto_author: bool = False
@@ -44,7 +44,7 @@ class Embed(discord.Embed):
         cls.default_args.update(kwargs)
         cls.auto_author = auto_author
 
-    def __init__(self, ctx: Optional[discord.Context] = None, **kwargs):
+    def __init__(self, ctx: Optional[nextcord.Context] = None, **kwargs):
         """Initialise discord embed, set default bot color and
             set dynamic footer if ctx is passed.
 
