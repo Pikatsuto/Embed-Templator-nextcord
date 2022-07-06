@@ -15,7 +15,7 @@ setup(
         "A Python Template manager for your discord bot to keep your embeds"
         " simple & consistent. "
     ),
-    long_description=README,
+    #long_description=README,
     long_description_content_type="text/markdown",
     url="https://github.com/Pikatsuto/Embed-Templator-nextcord",
     author="Sigmanificient",
