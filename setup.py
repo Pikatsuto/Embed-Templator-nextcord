@@ -17,7 +17,7 @@ setup(
     ),
     long_description=README,
     long_description_content_type="text/markdown",
-    url="https://github.com/Sigmanificient/Embed-Templator",
+    url="https://github.com/Pikatsuto/Embed-Templator-nextcord",
     author="Sigmanificient",
     author_email="edhyjox@gmail.com",
     license="MIT",
