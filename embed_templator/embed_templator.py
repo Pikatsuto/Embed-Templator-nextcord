@@ -14,7 +14,7 @@ from .exceptions import (
 Bot: Optional[Union[commands.Bot, nextcord.Client]]
 
 
-class Embed(netxcord.Embed):
+class Embed(nextcord.Embed):
     """Embed wrapping of discord.Embed class."""
 
     auto_author: bool = False
