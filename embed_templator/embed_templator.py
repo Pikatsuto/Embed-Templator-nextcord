@@ -2,8 +2,8 @@ from __future__ import annotations
 
 from typing import Union, Dict, Any, Iterable, Optional, Callable
 
-import discord
-from discord.ext import commands
+import nextcord
+from nextcord.ext import commands
 
 from .exceptions import (
     NotInitializedError,
